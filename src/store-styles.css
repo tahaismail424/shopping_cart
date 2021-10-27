@@ -1,0 +1,166 @@
+@font-face {
+    font-family: PokeLogo;
+    src: url(./components/assets/PokemonSolidNormal-xyWR.ttf);
+}
+
+@font-face {
+    font-family: MartTitle;
+    src: url(./components/assets/nasalization-rg.otf);
+
+}
+
+@font-face {
+    font-family: MartSubtitle;
+    src: url(./components/assets/RobotoCondensed-Light.ttf);
+
+}
+
+@font-face {
+    font-family: gameboyText;
+    src: url(./components/assets/PKMN\ RBYGSC.ttf);
+}
+
+h1 {
+    font-family: MartTitle;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: MartSubtitle;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.shop-link {
+    font-family: gameboyText;
+    text-align: center;
+    margin: 0;
+    color: black;
+}
+
+.to-inventory-button {
+    text-align: center;
+}
+
+.pokemart {
+    position: absolute;
+
+}
+
+#pokemart-1 {
+    top: 0;
+    left: 1%;
+
+}
+
+#pokemart-2 {
+    top: 0;
+    right: 1%;
+
+
+}
+
+#pokemart-3 {
+    bottom: 1%;
+    left: 0;
+
+}
+
+#pokemart-4 {
+    bottom: 1%;
+    right: 0;
+
+}
+
+.title-box {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100vmin;
+   overflow: auto;
+   resize: vertical;
+}
+
+.top-bar {
+    position: relative;
+    height: 100px;
+
+}
+
+.top-bar > * {
+    display: inline-block;
+    position: absolute;
+
+}
+
+.top-bar-text {
+    right: 170px;
+    font-family: gameboyText;
+
+}
+
+.top-bar-link {
+
+    left: 30x;
+    font-family: MartSubtitle;
+    color: black;
+    font-size: 30px;
+
+}
+
+.top-bar-button {
+    right: 2px;
+    font-family: gameboyText;
+    font-size: 20px;
+
+
+}
+.shop-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+h4 {
+    font-family: gameboyText;
+    font-size: 12px;
+}
+
+.item-button {
+    display: block;
+    font-family: gameboyText;
+    color: white;
+    background-color: #152b52;
+    margin: auto;
+    
+}
+
+.item-pic {
+    display: block;
+    padding: 25px;
+
+}
+
+.shop-item img {
+    display: block;
+    margin: auto;
+}
+
+.shop-item h4 {
+    text-align: center;
+}
+
+.shop-item {
+    border-style: solid;
+    border-color: #152b52;
+    border-radius: 10px;
+    border-width: 10px;
+    border-bottom-width: 20px;
+    margin: 10px;
+    height: 220px;
+    width: 150px;
+}
